@@ -18,6 +18,18 @@ public class ContatoController : Controller
         return View();
     }
 
+    public IActionResult Adicionar()
+    {
+        return Adicionar();
+    }
+    public IActionResult Editar()
+    {
+        return Editar();
+    }
+    public IActionResult ExcluirAposConfirmacao()
+    {
+        return ExcluirAposConfirmacao();
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
