@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VVLBUNN0mrkcwd7MzXaKOZzFmI/RWNiNgfbWfxbfvhE=",
+  "Hash": "SOjQiPNByl4VCtwwZaE6LEGUGFnrBaqPDkdO5KJ/EIo=",
   "Source": "aula20.04",
   "BasePath": "_content/aula20.04",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\MeusEstudos\\C#\\aula20.04\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\aula20.04.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\MeusEstudos\\C#\\aula20.04\\wwwroot\\css\\imagens.css",
+      "SourceId": "aula20.04",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MeusEstudos\\C#\\aula20.04\\wwwroot\\",
+      "BasePath": "_content/aula20.04",
+      "RelativePath": "css/imagens.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\imagens.css"
     },
     {
       "Identity": "D:\\MeusEstudos\\C#\\aula20.04\\wwwroot\\css\\site.css",

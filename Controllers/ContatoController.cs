@@ -22,13 +22,25 @@ public class ContatoController : Controller
     {
         return Adicionar();
     }
+
+    // [HttpPost]
+    // public IActionResult Criar(Contato contato)
+    // {
+    //     if (ModelState.IsValid)
+    //     {
+    //         _context.Contatos.Add(contato);
+    //         _context.SaveChanges();
+    //         return RedirectToAction(nameof(Index));
+    //     }
+    //     return View(contato);
+    // }
     public IActionResult Editar()
     {
-        return Editar();
+        return View();
     }
     public IActionResult ExcluirAposConfirmacao()
     {
-        return ExcluirAposConfirmacao();
+        return View();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
